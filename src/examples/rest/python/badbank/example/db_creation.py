@@ -34,6 +34,12 @@ cur.execute("""CREATE TABLE IF NOT EXISTS account_changes (
 );
 """)
 
+cur.execute("""CREATE TABLE IF NOT EXISTS logins ( 
+	iban TEXT NOT NULL PRIMARY KEY,
+    password_hash TEXT NOT NULL
+);
+""")
+
 
 ## List tables
 

@@ -213,6 +213,8 @@ finally:
     print("Das Programm ist beendet")
 ```
 
+> Beispiel: [Ansteuerung mittels Webserver](https://github.com/iPlays04/led-control)
+
 ### Aufgaben
 
 Eränzen Sie die Programme aus dem ersten Teil (GPIO Output), so dass jeweils beim Drücken eines Knopfes auf den nächsten Zustand umgeschaltet wird:
@@ -235,6 +237,7 @@ Eränzen Sie die Programme aus dem ersten Teil (GPIO Output), so dass jeweils be
 ### MotionSensor
 * [mittels Flankenerkennung](https://tutorials-raspberrypi.de/raspberry-pi-bewegungsmelder-sensor-pir/)
 * [mittels Library](https://gpiozero.readthedocs.io/en/stable/recipes.html#motion-sensor)
+* [Beispielprojekt](https://github.com/passa-wq/SchuleBewegung)
 
 ### HC-SR04 - Ultrasonic Sensor (Entfernungsmesser)
 * [Erklärung](https://www.elektronik-kompendium.de/sites/praxis/bauteil_ultrasonic-hcsr04p.htm)
