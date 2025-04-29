@@ -1,5 +1,7 @@
 # [SQL](https://www.w3schools.com/sql)
 
+<!-- toc -->
+
 ## Grundlagen
 
 ### [NoSQL (Not only SQL)](https://en.wikipedia.org/wiki/NoSQL)
@@ -100,6 +102,25 @@ WHERE column_name operator value
 z.B.
 `NOW()`
 
+
+### SELECT + WHERE + [LIKE](https://www.w3schools.com/sql/sql_like.asp)
+
+```
+SELECT column_names
+FROM table_name
+WHERE column_name LIKE pattern
+```
+
+
+#### [Wildcards](https://www.w3schools.com/sql/sql_wildcards.asp)
+
+| Wildcard | Bedeutung |
+| -------- | --------- |
+| **%** | Ein oder mehrere beliebige Zeichen |
+| **_** | Ein einzelnes Zeichen |
+| [weitere](https://www.w3schools.com/sql/sql_wildcards.asp) ||
+
+
 ### SELECT + [DISTINCT](https://www.w3schools.com/sql/sql_distinct.asp) + LIMIT
 ```
 SELECT (DISTINCT) column_names
@@ -117,24 +138,6 @@ WHERE column_name operator value
 ORDER BY column1, column2, ... ASC|DESC;
 ```
 
-
-### SELECT + WHERE + [LIKE](https://www.w3schools.com/sql/sql_like.asp)
-
-```
-SELECT column_names
-FROM table_name
-WHERE column_name LIKE pattern
-```
-
-#### [Wildcards](https://www.w3schools.com/sql/sql_wildcards.asp)
-
-| Wildcard | Bedeutung |
-| -------- | --------- |
-| **%** | Ein oder mehrere beliebige Zeichen |
-| **_** | Ein einzelnes Zeichen |
-| [weitere](https://www.w3schools.com/sql/sql_wildcards.asp) ||
-
-
 ### [SELECT + GROUP BY](https://www.w3schools.com/sql/sql_groupby.asp) (+ [HAVING](https://www.w3schools.com/sql/sql_having.asp))
 ```
 SELECT column_names, aggregate_function(column_name)
@@ -148,16 +151,13 @@ GROUP BY column_name
 MIN(), MAX(), COUNT(), SUM(), AVG()
 
 
-### JOIN
+### [JOIN](https://www.w3schools.com/sql/sql_join.asp)
 ```
 SELECT column_name(s)
 FROM table_name1
 INNER JOIN table_name2
 ON table_name1.column_name=table_name2.column_name
 ```
-
-
-### [Joins](https://www.w3schools.com/sql/sql_join.asp)
 
 ![](https://www.w3schools.com/sql/img_inner_join.png)
 ![](https://www.w3schools.com/sql/img_left_join.png)
