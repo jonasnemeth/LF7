@@ -61,6 +61,25 @@ column_name3 data_type,
 )
 ```
 
+#### [INDEX](https://www.w3schools.com/SQL/sql_ref_index.asp)
+
+#### GRANT / REVOKE
+
+* [MySQL/MariaDB](https://mariadb.com/kb/en/grant/)
+* [PostgreSQL](https://www.postgresql.org/docs/current/sql-grant.html)
+
+```
+GRANT
+    privileges
+    ON object
+    TO role_specification
+```
+
+* privilegeds: SELECT | INSERT | UPDATE | … | ALL PRIVILEGES
+* objects: db\_name | table\_name | …
+* role\_specification: user | group | …
+
+
 ### INSERT INTO
 ```
 INSERT INTO table_name
