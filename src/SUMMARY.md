@@ -24,3 +24,4 @@
   * [Microcontroller](microcontroller.md)
   * [KI](ki.md)
   * [Node-RED](nodered.md)
+* [Prüfungsvorbereitung](pruefung/sql.md)
