@@ -1,0 +1,311 @@
+[
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "HTTP Server",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "d4c0b9f77df46a78",
+        "type": "openApi-red-url",
+        "name": "",
+        "url": "https://petstore.swagger.io/v2/swagger.json",
+        "urlType": "str",
+        "server": "",
+        "serverType": "custom",
+        "devMode": "",
+        "headers": [],
+        "_version": "2.5.0"
+    },
+    {
+        "id": "ace80b44d530554f",
+        "type": "swagger-doc",
+        "summary": "swagger-example",
+        "description": "my swagger example endpoint",
+        "tags": "",
+        "consumes": "",
+        "produces": "",
+        "parameters": [],
+        "responses": {},
+        "deprecated": false
+    },
+    {
+        "id": "3cc11d24.ff01a2",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "WARNING: please check you have started this container with a volume that is mounted to /data\\n otherwise any flow changes are lost when you redeploy or upgrade the container\\n (e.g. upgrade to a more recent node-red docker image).\\n  If you are using named volumes you can ignore this warning.\\n Double click or see info side panel to learn how to start Node-RED in Docker to save your work",
+        "info": "\nTo start docker with a bind mount volume (-v option), for example:\n\n```\ndocker run -it -p 1880:1880 -v /home/user/node_red_data:/data --name mynodered nodered/node-red\n```\n\nwhere `/home/user/node_red_data` is a directory on your host machine where you want to store your flows.\n\nIf you do not do this then you can experiment and redploy flows, but if you restart or upgrade the container the flows will be disconnected and lost. \n\nThey will still exist in a hidden data volume, which can be recovered using standard docker techniques, but that is much more complex than just starting with a named volume as described above.",
+        "x": 350,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "5e4970d03e1f0251",
+        "type": "http in",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "url": "/example",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "ace80b44d530554f",
+        "x": 210,
+        "y": 300,
+        "wires": [
+            [
+                "41e2e09bb0a1410e"
+            ]
+        ]
+    },
+    {
+        "id": "41e2e09bb0a1410e",
+        "type": "template",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "plain",
+        "template": "Hallo Welt",
+        "output": "str",
+        "x": 420,
+        "y": 300,
+        "wires": [
+            [
+                "618d1470c539c07e"
+            ]
+        ]
+    },
+    {
+        "id": "618d1470c539c07e",
+        "type": "http response",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 630,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "81ebdea5ddc63afb",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "trigger",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 480,
+        "wires": [
+            [
+                "eb68dfa4d058a862"
+            ]
+        ]
+    },
+    {
+        "id": "14eeb1a4ed0ec320",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "09587dcd69e79d66",
+        "type": "http request",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://nominatim.openstreetmap.org/search?format=json&city=dresden&countrycodes=de",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 420,
+        "wires": [
+            [
+                "5638d403412930f4"
+            ]
+        ]
+    },
+    {
+        "id": "5638d403412930f4",
+        "type": "json",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 630,
+        "y": 420,
+        "wires": [
+            [
+                "14eeb1a4ed0ec320"
+            ]
+        ]
+    },
+    {
+        "id": "eb68dfa4d058a862",
+        "type": "openApi-red",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "configUrlNode": "d4c0b9f77df46a78",
+        "apiTag": "pet",
+        "keepAuth": false,
+        "operationData": {
+            "id": "addPet",
+            "hasOperationId": true,
+            "path": "/pet",
+            "method": "post"
+        },
+        "outputStyle": "each response",
+        "errorHandling": "throw exception",
+        "internalErrors": {
+            "text": "",
+            "source": ""
+        },
+        "parameters": {
+            "body body": {
+                "name": "body",
+                "isActive": true,
+                "activeFilter": "",
+                "required": true,
+                "type": "editor:body",
+                "collapsed": false,
+                "parameters": {
+                    "id": {
+                        "name": "id",
+                        "activeFilter": ""
+                    },
+                    "category": {
+                        "name": "category",
+                        "activeFilter": "",
+                        "type": "editor:Category",
+                        "parameters": {
+                            "id": {
+                                "name": "id",
+                                "activeFilter": ""
+                            },
+                            "name": {
+                                "name": "name",
+                                "activeFilter": ""
+                            }
+                        }
+                    },
+                    "name": {
+                        "name": "name",
+                        "isActive": true,
+                        "activeFilter": "",
+                        "required": true,
+                        "type": "str",
+                        "value": "moritz"
+                    },
+                    "photoUrls": {
+                        "name": "photoUrls",
+                        "isActive": true,
+                        "activeFilter": "",
+                        "required": true,
+                        "type": "array",
+                        "collapsed": false,
+                        "value": [
+                            {
+                                "name": 0,
+                                "isActive": true,
+                                "activeFilter": "",
+                                "required": true,
+                                "type": "msg",
+                                "value": "payload.body.photoUrls[\"0\"]"
+                            }
+                        ]
+                    },
+                    "tags": {
+                        "name": "tags",
+                        "activeFilter": ""
+                    },
+                    "status": {
+                        "name": "status",
+                        "activeFilter": ""
+                    }
+                },
+                "in": "body"
+            }
+        },
+        "requestContentType": "application/json",
+        "responseContentType": "application/json",
+        "outputs": 2,
+        "responseOutputLabels": [
+            {
+                "code": "successful",
+                "text": "all successful responses (2xx)"
+            },
+            {
+                "code": "405",
+                "text": "Invalid input"
+            }
+        ],
+        "responseAsPayload": false,
+        "debugMode": false,
+        "headers": [],
+        "_version": "2.5.0",
+        "x": 420,
+        "y": 480,
+        "wires": [
+            [
+                "5638d403412930f4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "31e14f0531f8c2a4",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "trigger",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 210,
+        "y": 420,
+        "wires": [
+            [
+                "09587dcd69e79d66"
+            ]
+        ]
+    }
+]

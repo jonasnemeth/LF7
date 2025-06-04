@@ -24,6 +24,9 @@ docker run -it -p 1880:1880 -v node_red_data:/data --name mynodered nodered/node
 * [`openapi-red`](https://flows.nodered.org/node/openapi-red) (Client)
 * [`node-red-node-swagger`](https://flows.nodered.org/node/node-red-node-swagger) (Documentation Generator)
 
+> Beispiel [flow.json](./nodered_flow_html.json)
+
+
 ### Benutzung Client
 
 * `openApi-red` Node statt `http request` Node benutzen

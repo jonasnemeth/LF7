@@ -75,21 +75,25 @@ gantt
 ```
 ```mermaid
 gantt
- title Juni (23h)
+ title Juni (28h)
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
  section 3h Mi 04.06.
-  …                           :2025-06-04, 3h
+  HTTP, MQTT                  :2025-06-04, 3h
  section 5h Do 05.06.
-  …                           :2025-06-05, 5h
- section 5h Mo 16.06.
-  …                           :2025-06-16, 5h
+  UART, I²C, SPI              :2025-06-05, 5h
  section 5h Do 19.06.
-  …                           :2025-06-19, 5h
+  Wiederholung Klassenarbeit  :2025-06-19, 5h
  section 2h Fr 20.06.
-  SOL (Projektabschluss)      :2025-06-20, 2h
+  Klassenarbeit               :2025-06-20, 2h
+ section 4h Fr 20.06.
+  Praxisprojekt               :2025-06-20, 4h
+ section 2h Fr 20.06.
+  SOL (Projektdokumentation)  :2025-06-20, 2h
  section 3h Mo 23.06.
-  Projektvorstellungen        :2025-06-23, 3h
+  Projektabschluss            :2025-06-23, 3h
+ section 4h Fr 27.06.
+  Projektvorstellungen        :2025-06-27, 4h
 ```
 
 ## Leistungskontrollen
@@ -109,8 +113,8 @@ gantt
 >   * [Rechnernetze / Topologien](rechnernetze.md)
 >   * [Grundlagen Git](./git.md)
 
-> * **2. Klassenarbeit 31.01.** ~90min (einseitig beschrifteter A4 Notizzettel)
->   * OSI-Modell, insbesondere Physical Layer
+> * **2. Klassenarbeit 20.06.** (1.+2. UE) ~90min (einseitig beschrifteter A4 Notizzettel)
+>   * OSI-Modell (insbesondere Physical Layer und anwendungsorientierte Protokolle)
 >   * UART, I²C, SPI
 >   * HTTP, MQTT
 >   * Grundlagen Programmierung (Variablen, While, If/Else)
