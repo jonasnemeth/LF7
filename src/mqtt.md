@@ -9,6 +9,7 @@
   * Server kann Clients über bestehende Verbindung über Updates informieren
 
 ```bash
-mosquitto_sub -h 192.168.88.47 -p 1883 -u fi22 -P geheim -t fi22/buttonGPIO2
-mosquitto_pub -h 192.168.88.47 -p 1883 -u fi22 -P geheim -t fi22/buttonGPIO2 -m '1'
+mosquitto  ## start the broker
+mosquitto_sub -h 127.0.0.1 -p 1883 -u fi -P geheim -t fi/buttonGPIO2
+mosquitto_pub -h 127.0.0.1 -p 1883 -u fi -P geheim -t fi/buttonGPIO2 -m '1'
 ```
