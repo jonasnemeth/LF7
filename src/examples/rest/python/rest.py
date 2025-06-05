@@ -6,7 +6,7 @@ app = FastAPI()
 @app.get("/example.json")
 def example():
     return {"msg": "hello world",
-            "answer_to_everything": 42}
+            "answer_to_everything": 6*7}
 
 @app.get("/index.html", response_class=HTMLResponse)
 def index():

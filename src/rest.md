@@ -22,6 +22,22 @@ Ohne `format=`
 ### [Swagger Petstore](https://petstore.swagger.io/)
 
 
+### Dokumentation
+
+Benötigte Informationen über API-Endpunkte:
+* URL (Protokoll, Host, Port, **Pfad**)
+* **HTTP-Methode**
+* Query **Parameter**
+* Request Body
+* Request Header (z.B. Authorization)
+* Responese Body
+  * **MimeType** (z.B. application/json)
+  * Encoding (z.B. UTF-8)
+  * **Schema** (z.B. [JSON-Schema](https://json-schema.org/), DTD)
+
+> Empfehlung: [**OpenAPI** Specification / **Swagger**](https://swagger.io/specification/) zur automatischen Dokumentation verwenden
+
+
 ## Beispiel Code
 
 * [Node-RED](nodered.md)

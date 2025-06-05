@@ -259,7 +259,18 @@ Eränzen Sie die Programme aus dem ersten Teil (GPIO Output), so dass jeweils be
 
 ```bash
 minicom -D /dev/ttyUSB0
+
+man minicom
 ```
+
+```
+  -D, --device
+       Specify the device, overriding the value given in the configuration file.
+
+  -b, --baudrate
+       Specify the baud rate, overriding the value given in the configuration file.
+```
+
 
 ### I²C
 * Displays

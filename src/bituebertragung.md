@@ -2,10 +2,16 @@
 
 ## [Serielle Schnittstelle](https://de.wikipedia.org/wiki/Serielle_Schnittstelle)
 
-### UART
+### [UART](https://de.wikipedia.org/wiki/Universal_Asynchronous_Receiver_Transmitter)
 (**U**niversal **A**synchronous **R**eceiver **T**ransmitter)
 
 ![rs-232 oscilloscope](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Rs232_oscilloscope_trace.svg/1280px-Rs232_oscilloscope_trace.svg.png)
+
+Beim Anschließen beachten:
+* **Spannungspegel**
+* Baudrate
+* *Parity-Bit*
+* *Stopp-Bit*
 
 ![NodeMCU](https://upload.wikimedia.org/wikipedia/commons/e/e5/Nodemcu_amica_bot_02.png)
 

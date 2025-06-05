@@ -114,7 +114,9 @@ gantt
 >   * [Grundlagen Git](./git.md)
 
 > * **2. Klassenarbeit 20.06.** (1.+2. UE) ~90min (einseitig beschrifteter A4 Notizzettel)
->   * OSI-Modell (insbesondere Physical Layer und anwendungsorientierte Protokolle)
->   * UART, I²C, SPI
->   * HTTP, MQTT
->   * Grundlagen Programmierung (Variablen, While, If/Else)
+>   * [OSI-Modell](osi.md) (insbesondere Physical Layer und anwendungsorientierte Protokolle)
+>   * [UART](bituebertragung.md#uart), [SPI](rechnernetze.md#spi), [I²C](rechnernetze.md#i²c)
+>   * [HTTP](http.md), [MQTT](mqtt.md)
+>   * Grundlagen Programmierung (Variablen, While, If/Else, Funktionen)
+>     * Siehe Programmierbeispiele [Pi](pi.md), [I²C-Beispiel](rechnernetze.md#i²c)
+>   * Auswahl Hardwareplatform und Programmiersprache

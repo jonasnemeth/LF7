@@ -33,7 +33,18 @@ graph TB
   Bussysteme --> Feldbus -..-> CAN[z.B. CAN]
 ```
 
-### I²C
+### [SPI](https://de.wikipedia.org/wiki/Serial_Peripheral_Interface)
+(**S**erial **P**eripheral **I**nterface)
+
+![SPI](https://upload.wikimedia.org/wikipedia/commons/f/fc/SPI_three_slaves.svg)
+
+* 4 Signalleitungen
+  * SCLK = Serial Clock
+  * MOSI / PICO = Master Out / Slave In bzw. Peripheral In / Controller Out
+  * MISO / POCI = Master In / Slave Out bzw. Peripheral Out / Controller In
+  * SS / CS = Slave Select bzw. Chip Select
+
+### [I²C](https://de.wikipedia.org/wiki/I%C2%B2C)
 ![I²C](https://upload.wikimedia.org/wikipedia/commons/0/04/I2C_controller-target.svg)
 
 * Master-Slave-Bus
@@ -41,7 +52,8 @@ graph TB
   * SCL = Serial Clock
   * SDA = Serial Data
 
-### SPI
-(**S**erial **P**eripheral **I**nterface)
+* 7-bit Adressraum
 
-![SPI](https://upload.wikimedia.org/wikipedia/commons/f/fc/SPI_three_slaves.svg)
+> Beispiel: [I2C-LCD-Display](https://wokwi.com/projects/359400194112248833)
+
+#### [Anwendungsfälle](pi.md#serielle-protokolle)
