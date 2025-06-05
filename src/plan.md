@@ -117,6 +117,13 @@ gantt
 >   * [OSI-Modell](osi.md) (insbesondere Physical Layer und anwendungsorientierte Protokolle)
 >   * [UART](bituebertragung.md#uart), [SPI](rechnernetze.md#spi), [I²C](rechnernetze.md#i²c)
 >   * [HTTP](http.md), [MQTT](mqtt.md)
->   * Grundlagen Programmierung (Variablen, While, If/Else, Funktionen)
->     * Siehe Programmierbeispiele [Pi](pi.md), [I²C-Beispiel](rechnernetze.md#i²c)
 >   * Auswahl Hardwareplatform und Programmiersprache
+>   * Grundlagen Programmierung (Variablen, While, If/Else, Funktionen)
+>     * Siehe Programmierbeispiele [Pi](pi.md), [I²C-Beispiel (main.py)](rechnernetze.md#i²c)
+
+Programmier-Übungsaufgaben:
+* Blink [Pi Pico](https://wokwi.com/projects/300504213470839309), [ESP32](https://wokwi.com/projects/359801682833812481)
+* [Ampel](https://wokwi.com/projects/432915684639002625)
+* [Buzzer](https://wokwi.com/projects/432915379839949825)
+* [Button](https://wokwi.com/projects/432915323107785729)
+* [7-Segment + Schalter](https://wokwi.com/projects/300210834979684872)
