@@ -39,12 +39,14 @@ pinout
 
 ## GPIO Output
 
+Die Zuordnung der externen Pin-Nummern zu den internen Nummen des Chips steht in:
+`/sys/kernel/debug/gpio`
+
 ### sys-Dateisystem
 Als root oder Mitglied der Gruppe `gpio`:
 ```bash
-## get offset
-ls /sys/class/gpio/gpiochip*
-PIN=$((512+2))
+grep GPIO3 /sys/kernel/debug/gpio
+PIN=574
 
 echo $PIN > /sys/class/gpio/export
 echo out > /sys/class/gpio/gpio$PIN/direction
@@ -55,7 +57,7 @@ echo 0 > /sys/class/gpio/gpio$PIN/value
 
 blink.sh
 ```bash
-PIN=$((512+2))
+PIN=574
 
 echo $PIN > /sys/class/gpio/export
 echo out > /sys/class/gpio/gpio$PIN/direction
@@ -81,11 +83,12 @@ python  ## öffnet eine interaktive Python-Shell
 ```python
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
+PIN = 3
 
-GPIO.setup(2, GPIO.OUT)
+GPIO.setup(PIN, GPIO.OUT)
 
-GPIO.output(2, True)
-GPIO.output(2, False)
+GPIO.output(PIN, True)
+GPIO.output(PIN, False)
 
 GPIO.cleanup()
 ```
@@ -97,7 +100,7 @@ import time
 
 GPIO.setmode(GPIO.BCM)
 
-LED1=2
+LED1=3
 GPIO.setup(LED1, GPIO.OUT)
 
 try:
@@ -128,15 +131,16 @@ python blink.py
 
 ### sys-Dateisystem
 ```bash
-echo 2 > /sys/class/gpio/export
-echo in > /sys/class/gpio/gpio2/direction
-cat /sys/class/gpio/gpio2/value
+PIN=574
+echo $PIN > /sys/class/gpio/export
+echo in > /sys/class/gpio/gpio$PIN/direction
+cat /sys/class/gpio/gpio$PIN/value
 ```
 
 read.sh
 ```bash
 while true; do
-  cat /sys/class/gpio/gpio2/value
+  cat /sys/class/gpio/gpio$PIN/value
   sleep 1
 done
 ```
@@ -156,7 +160,7 @@ import time
 
 GPIO.setmode(GPIO.BCM)
 
-BUTTON1=2
+BUTTON1=3
 GPIO.setup(BUTTON1, GPIO.IN)
 
 try:
@@ -174,7 +178,7 @@ import time
 
 GPIO.setmode(GPIO.BCM)
 
-BUTTON1=2
+BUTTON1=3
 GEDRUECKT=0
 GPIO.setup(BUTTON1, GPIO.IN)
 
@@ -196,7 +200,7 @@ import time
 
 GPIO.setmode(GPIO.BCM)
 
-BUTTON1=2
+BUTTON1=3
 GEDRUECKT=0
 GPIO.setup(BUTTON1, GPIO.IN)
 
