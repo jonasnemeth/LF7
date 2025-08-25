@@ -125,4 +125,7 @@ flowchart TB
 (**G**eneral **P**urpose **I**nput/**O**utput)
 
 
-> Was ist die „richtige“ Sichtweise?
+> `lstopo -.txt`
+>
+> [Beispiel Skylake Microarchitectures](https://en.wikichip.org/wiki/intel/microarchitectures/skylake_(client)#Block_Diagram)
+

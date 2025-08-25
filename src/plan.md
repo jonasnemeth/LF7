@@ -4,96 +4,118 @@
 
 ```mermaid
 gantt
- title August (15h)
+ title August - September (20UE LF7)
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
- section 2h Do 22.08.
-  Einführung                  :2024-08-22, 2h
- section 4h Fr 23.08.
-  Grundlagen CPS, SOL (Funktionsweise CPU)  :2024-08-23, 4h
- section 5h Do 29.08.
-  Logische Verknüpfungen, Binäres Rechnen, Praxis Logische Verknüpfungen  :2024-08-29, 5h
- section 4h Fr 30.08.
-  Von-Neumann-Zyklus          :2024-08-30, 4h
+ section Do 28.08. 5
+  Einführung, Grundlagen CPS  :2025-08-28, 5h
+ section Fr 29.08. 6
+  Logikgatter, Binäres Rechnen, Widerstände, DevOps  :2025-08-29, 4h
+  SOL Git                     :crit, 2025-08-29, 2h
+ section Do 04.09. 5
+  Q&A, Wiederholung           :2025-09-04, 5h
+ section Fr 05.09. 4
+  Klassenarbeit               :crit, 2025-09-05, 2h
+  GPIO, Mikrocontroller, Raspberry Pi, Simulator  :2025-09-05, 2h
 ```
+
 ```mermaid
 gantt
- title Oktober + November (12h)
+ title Oktober (38UE IoT + 5UE LF7)
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
- section 3h Mo 21.10.
-  Einführung Mikrocontroller  :2024-10-21, 3h
- section 3h Mi 30.10.
-  Praxis Arduino (Simulator)  :2024-10-24, 3h
- section 4h Fr 01.11.
-  Einführung Git              :2024-11-01, 2h
-  SOL (Git)                   :2024-11-01, 2h
+ section Mo 20.10. 8
+  IoT Kurs                    :2025-10-20, 8h
+ section Di 21.10. 8
+  IoT Kurs                    :2025-10-21, 8h
+ section Mi 22.10. 8
+  IoT Kurs                    :2025-10-22, 8h
+ section Do 23.10. 8
+  IoT Kurs                    :2025-10-23, 8h
+ section Fr 24.10. 6
+  IoT Kurs                    :2025-10-24, 6h
+ section Do 30.10. 5
+  Standarts, Node-RED, REST, OpenAPI, HTTP  :2025-10-30, 5h
 ```
+
 ```mermaid
 gantt
- title Dezember (17h)
+ title Dezember (15UE LF7)
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
- section 5h Do 05.12.
-  Physikalische Betriebswerte, Berechnung von (Vor-)Widerständen  :2024-12-05, 4h
- section 4h Fr 06.12.
-  Wiederholung                :2024-12-06, 2h
-  SOL (Rechnernetze / Topologien + Vorbereitung Klassenarbeit)  :2024-12-06, 2h
- section 2h Di 10.12.
-  Fragen zur Klassenarbeit    :2024-12-10, 2h
- section 2h Mi 11.12.
-  Klassenarbeit               :milestone, 2024-12-11, 2h
+ section Fr 05.12. 4
+  HTTP, MQTT                  :2025-12-05, 4h
+ section Mi 10.12. 5
+  UART, I2C, SPI              :2025-12-10, 5h
+ section Fr 12.12. 6
+  Programmierübungen          :2025-12-12, 4h
+  SOL Beenden Programmierübungen  :crit, 2025-12-12, 2h
 ```
+
 ```mermaid
 gantt
- title Januar (13h)
+ title Januar-Februar (30UE LF8b + 19UE PV)
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
- section 3h Do 22.01.
-  OSI-Modell (Physical Layer) :2025-01-23, 3h
- section 5h Do 23.01.
-  UART, I²C, SPI              :2025-01-23, 5h
- section 4h Fr 24.01.
-  HTTP, MQTT                  :2025-01-24, 2h
-  SOL (Vorbereitung Klassenarbeit)  :2025-01-24, 2h
- section 3h Di 28.01.
-  Wiederholung                :2025-01-23, 3h
- section 4h Fr 31.01.
-  Klassenarbeit               :milestone, 2025-01-31, 2h
-  SOL (Projektplanung)        :2025-01-31, 2h
+ section Mi 12.01. 3
+  PV                          :2026-01-12, 3h
+ section Do 13.01. 3
+  PV                          :2026-01-13, 3h
+ section Mi 14.01. 5
+  LF8b                        :2026-01-14, 5h
+ section Do 15.01. 5
+  LF8b                        :2026-01-15, 5h
+ section Fr 16.01. 8
+  LF8b                        :2026-01-16, 6h
+  SOL PV                      :crit, 2026-01-16, 2h
+ section Di 02.02. 5
+  LF8b                        :2026-02-02, 5h
+ section Di 03.02. 3
+  LF8b                        :2026-02-03, 3h
+ section Mi 04.02. 4
+  LF8b                        :2026-02-04, 4h
+ section Do 05.02. 5
+  LF8b                        :2026-02-05, 2h
+  PV                          :2026-02-05, 3h
+ section Do 06.02. 8
+  PV                          :2026-02-06, 6h
+  SOL PV                      :crit, 2026-02-06, 2h
 ```
+
 ```mermaid
 gantt
- title März (6h)
+ title März (11UE LF7)
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
- section 2h Mi 19.03.
-  Praxisprojekt               :2025-03-19, 2h
- section 4h Fr 21.03.
-  …                           :2025-03-21, 2h
-  SOL                         :2025-03-21, 2h
+ section Do 26.03. 5
+  Q&A, Wiederholung             :2026-03-26, 5h
+ section Fr 27.03. 6
+  Klassenarbeit                 :crit, 2026-03-27, 2h
+  Von-Neumann-Zyklus            :2026-03-27, 2h
+  SOL Projektplan               :crit, 2026-03-27, 2h
 ```
+
 ```mermaid
 gantt
- title Juni (28h)
+ title Mai-Juni (33UE LF7)
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
- section 3h Mi 04.06.
-  HTTP, MQTT                  :2025-06-04, 3h
- section 5h Do 05.06.
-  UART, I²C, SPI              :2025-06-05, 5h
- section 5h Do 19.06.
-  Wiederholung Klassenarbeit  :2025-06-19, 5h
- section 2h Fr 20.06.
-  Klassenarbeit               :2025-06-20, 2h
- section 4h Fr 20.06.
-  Praxisprojekt               :2025-06-20, 4h
- section 2h Fr 20.06.
-  SOL (Projektdokumentation)  :2025-06-20, 2h
- section 3h Mo 23.06.
-  Projektabschluss            :2025-06-23, 3h
- section 4h Fr 27.06.
-  Projektvorstellungen        :2025-06-27, 4h
+ section Do 21.05. 5
+  Vorstellung Praxisprojekte    :crit, 2026-05-21, 2h
+  Praxis                        :2026-05-21, 3h
+ section Fr 22.05. 6
+  Potenzielle Gefahren, Schutzbedarfsanalyse, FMEA  :2026-05-22, 2h
+  Praxis                        :2026-05-22, 2h
+  SOL Projektdokumentation, Schutzbedarfsanalyse    :crit, 2026-05-22, 2h
+ section Di 09.06. 6
+  Praxis                        :2026-06-09, 6h
+ section Mi 10.06. 5
+  Praxis                        :2026-06-10, 5h
+ section Do 18.06. 5
+  Praxis                        :2026-06-18, 5h
+ section Fr 19.06. 6
+  Projektpräsentation           :crit, 2026-06-19, 4h
+  SOL Projektdokumentation      :crit, 2026-06-19, 2h
 ```
 
 ## Leistungskontrollen
@@ -102,22 +124,22 @@ gantt
 * Minimum Klassenarbeiten (>45min, doppelte Wertung): 2
 * Sonstige Noten: >=3
 
-> * **1. Klassenarbeit 11.12.** ~90min (einseitig beschrifteter A4 Notizzettel + 1 einfacher Taschenrechner ohne Binärberechnungen)
+> * **1. Klassenarbeit 05.09.** ~90min (einseitig beschrifteter A4 Notizzettel + 1 einfacher Taschenrechner ohne Binärberechnungen)
 >   * [Grundlagen CPS](grundlagen.md), einschließlich [Schnittstellen](schnittstellen.md)
->   * [Rechnen mit Binärzahlen, Zweierpotenzen](binary.md)
->   * [Logische Verknüpfungen](./prozessor.md#Logikgatter) (Not, And, Or, XOr)
+>   * [Logische Verknüpfungen](./gatter.md) (Not, And, Or, XOr)
 >     * Wahrheitswertetabelle
->     * Logik Gatter (Schaltung mit einfachen (Um-)Schaltern)
->   * ~~Von-Neumann-Zyklus~~
+>     * Schaltung mit einfachen (Um-)Schaltern
+>   * [Rechnen mit Binärzahlen, Zweierpotenzen](binary.md)
 >   * Berechnung von (Vor-)Widerständen
->   * [Rechnernetze / Topologien](rechnernetze.md)
+>   * Pullup-/Pulldown-Wiederstände
+>   * *([Rechnernetze / Topologien](rechnernetze.md))*
 >   * [Grundlagen Git](./git.md)
 
-> * **2. Klassenarbeit 20.06.** (1.+2. UE) ~90min (einseitig beschrifteter A4 Notizzettel)
+> * **2. Klassenarbeit 27.03.** (1.+2. UE) ~90min (einseitig beschrifteter A4 Notizzettel)
 >   * [OSI-Modell](osi.md) (insbesondere Physical Layer und anwendungsorientierte Protokolle)
->   * [UART](bituebertragung.md#uart), [SPI](rechnernetze.md#spi), [I²C](rechnernetze.md#i²c)
 >   * [HTTP](http.md), [MQTT](mqtt.md)
->   * Auswahl Hardwareplatform und Programmiersprache
+>   * [UART](bituebertragung.md#uart), [SPI](rechnernetze.md#spi), [I²C](rechnernetze.md#i²c)
+>   * Auswahl Hardwareplatformen und Programmiersprachen
 >   * Grundlagen Programmierung (Variablen, While, If/Else, Funktionen)
 >     * Siehe Programmierbeispiele [Pi](pi.md), [I²C-Beispiel (main.py)](rechnernetze.md#i²c)
 
@@ -127,3 +149,11 @@ Programmier-Übungsaufgaben:
 * [Buzzer](https://wokwi.com/projects/432915379839949825)
 * [Button](https://wokwi.com/projects/432915323107785729)
 * [7-Segment + Schalter](https://wokwi.com/projects/300210834979684872)
+
+> * **Mündliche Note 21.05.**
+>   * Vorstellung Projektplan (SOL vom 27.03.)
+>   * Bisherige Mitarbeit
+
+> * **Projektpräsentation 19.06.**
+>   * **Note für fachliche Leistung**
+>   * **Note für Mitarbeit im Praxisprojekt**

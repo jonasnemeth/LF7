@@ -1,14 +1,5 @@
 # Prozessoren
 
-## [Logikgatter](https://de.wikipedia.org/wiki/Logikgatter)
-
-* [NOT](https://de.wikipedia.org/wiki/Nicht-Gatter)
-* [AND](https://de.wikipedia.org/wiki/Und-Gatter)
-* [OR](https://de.wikipedia.org/wiki/Oder-Gatter)
-* [XOR](https://de.wikipedia.org/wiki/Exklusiv-Oder-Gatter)
-
-> Aufgabe 6 von Seite 78 aus „Prüfungsvorbereitung Aktuell Teil 1“ (Europa Verlag)
-
 > SOL „Funktionsweise von Prozessoren“
 >
 > Erkundigen Sie sich selbstständig darüber, wie es möglich ist, mittels Maschinen zu rechnen.

@@ -6,6 +6,7 @@
 * [Grundlagen CPS](./grundlagen.md)
   * [Schnittstellen](./schnittstellen.md)
   * [Prozessoren](./prozessor.md)
+    * [Logikgatter](./gatter.md)
   * [Binärzahlen](./binary.md)
 * [Rechnernetze](./rechnernetze.md)
 * [Integration](./integration.md)

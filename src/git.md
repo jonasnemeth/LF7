@@ -1,10 +1,67 @@
 # Git
 
+## Einordnung
+
+> Vergleich von SCMs mit Backups und Dateisystem-Snapshots
+
+
+### Arten von SCMs (**Source Code Management**)
+
+#### Zentral
+
+* \*~
+* `diff` + `patch`
+
+* CVS (Concurrent Versions System)
+* SVN (Subversion)
+
+#### Dezentral
+
+* Bazaar
+* Mercurial (hg)
+* **Git**
+
+
+## Praxis
+
 * [Download zu Git](https://git-scm.com/)
-
-* [Die wichtigsten Git Befehle](https://johannesloetzsch.github.io/LF10b/versionierung.html)
-
 * [OhMyGit — spielerisch Git lernen](https://ohmygit.org/)
+
+
+## Wichtigste Operation
+
+siehe [git-Subcommands](https://johannesloetzsch.github.io/linux-praktikum/versionskontrolle.html)
+
+```bash
+## Eine Kopie eines existierenden Repositories klonen und in das Verzeichnis wechseln
+git clone https://github.com/johannesloetzsch/LF10b.git
+cd LF10b/
+
+## Eine Datei editieren, die Änderungen betrachten und rückgängig machen
+nano src/versionierung.md 
+git status
+git diff
+git restore src/versionierung.md
+
+## Eine Datei editieren, die Änderungen betrachten…
+nano src/versionierung.md  ## man könnte auch vim benutzen
+git status
+git diff
+## Die geänderte Datei für den nächsten Commit einplanen
+git add src/versionierung.md 
+git status 
+## Einen neuen Commit erstellen
+git commit
+
+## Die Commit-Historie anschauen
+git log
+```
+
+```bash
+## Ein neues Git-Repository anlegen und in das Verzeichnis wechseln
+git init myproject
+cd myproject/
+```
 
 
 ## SOL
@@ -75,6 +132,7 @@ e) commiten und pushen Sie die Änderungen
 f) stellen Sie mir einen Pull-Request (das reicht als Abgabe)
 ```
 
+<!--
 SOL - Definition Musterlösung
 
 ```
@@ -92,3 +150,4 @@ git commit - Erstellt einen neuen Commit. Dieser Commit ist nur lokal verfügbar
 
 git restore - Stellt Dateien aus dem Staging-Bereich oder dem letzten Commit wieder her.
 ```
+-->
