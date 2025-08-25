@@ -8,9 +8,9 @@ gantt
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
  section Do 28.08. 5
-  Einführung, Grundlagen CPS  :2025-08-28, 5h
+  Einführung, Grundlagen CPS, Schnittstellen, Einheiten  :2025-08-28, 5h
  section Fr 29.08. 6
-  Logikgatter, Binäres Rechnen, Widerstände, DevOps  :2025-08-29, 4h
+  Widerstände, Logikgatter, Binäres Rechnen, DevOps  :2025-08-29, 4h
   SOL Git                     :crit, 2025-08-29, 2h
  section Do 04.09. 5
   Q&A, Wiederholung           :2025-09-04, 5h
@@ -125,13 +125,17 @@ gantt
 * Sonstige Noten: >=3
 
 > * **1. Klassenarbeit 05.09.** ~90min (einseitig beschrifteter A4 Notizzettel + 1 einfacher Taschenrechner ohne Binärberechnungen)
->   * [Grundlagen CPS](grundlagen.md), einschließlich [Schnittstellen](schnittstellen.md)
+>   * [Grundlagen CPS](grundlagen.md), [Begriffe](buzzwords.md)
+>     * [Industrie 4.0](industrie40.md)
+>     * [Schnittstellen](schnittstellen.md): HCI, M2M, CPS, Sensor, Aktuator
 >   * [Logische Verknüpfungen](./gatter.md) (Not, And, Or, XOr)
 >     * Wahrheitswertetabelle
 >     * Schaltung mit einfachen (Um-)Schaltern
 >   * [Rechnen mit Binärzahlen, Zweierpotenzen](binary.md)
->   * Berechnung von (Vor-)Widerständen
->   * Pullup-/Pulldown-Wiederstände
+>   * [Elektrische Einheiten](einheiten.md) 
+>   * [Widerstände](./resistor.md)
+>     * Berechnung von (Vor-)Widerständen
+>     * Pullup-/Pulldown-Wiederstände
 >   * *([Rechnernetze / Topologien](rechnernetze.md))*
 >   * [Grundlagen Git](./git.md)
 
