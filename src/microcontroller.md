@@ -45,7 +45,7 @@
   * 8bit AVR
 
 * Espressif [ESP8266](https://de.wikipedia.org/wiki/ESP8266) ([NodeMCU](https://de.wikipedia.org/wiki/NodeMCU)), [ESP32](https://de.wikipedia.org/wiki/ESP32)
-  * 32bit Wi-Fi Controller
+  * 32bit Wi-Fi Controller (Xtensa LX6 oder RISC-V)
 
 * STMicroelectronics [STM32](https://en.wikipedia.org/wiki/STM32)
   * 32bit ARM Cortex-M
