@@ -14,6 +14,7 @@ gantt
   SOL Git                     :crit, 2025-08-29, 2h
  section Do 04.09. 5
   Q&A, Wiederholung           :2025-09-04, 5h
+  Nachhilfe                   :2025-09-04, 2h
  section Fr 05.09. 4
   Klassenarbeit               :crit, 2025-09-05, 2h
   GPIO, Mikrocontroller, Raspberry Pi, Simulator  :2025-09-05, 2h
@@ -57,9 +58,9 @@ gantt
  title Januar-Februar (30UE LF8b + 19UE PV)
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
- section Mi 12.01. 3
+ section Mo 12.01. 3
   PV                          :2026-01-12, 3h
- section Do 13.01. 3
+ section Di 13.01. 3
   PV                          :2026-01-13, 3h
  section Mi 14.01. 5
   LF8b                        :2026-01-14, 5h
@@ -68,7 +69,7 @@ gantt
  section Fr 16.01. 8
   LF8b                        :2026-01-16, 6h
   SOL PV                      :crit, 2026-01-16, 2h
- section Di 02.02. 5
+ section Mo 02.02. 5
   LF8b                        :2026-02-02, 5h
  section Di 03.02. 3
   LF8b                        :2026-02-03, 3h
@@ -77,7 +78,7 @@ gantt
  section Do 05.02. 5
   LF8b                        :2026-02-05, 2h
   PV                          :2026-02-05, 3h
- section Do 06.02. 8
+ section Fr 06.02. 8
   PV                          :2026-02-06, 6h
   SOL PV                      :crit, 2026-02-06, 2h
 ```
@@ -110,12 +111,12 @@ gantt
  section Di 09.06. 6
   Praxis                        :2026-06-09, 6h
  section Mi 10.06. 5
-  Praxis                        :2026-06-10, 5h
+  Praxis (Benotung)             :crit, 2026-06-10, 5h
  section Do 18.06. 5
   Praxis                        :2026-06-18, 5h
  section Fr 19.06. 6
-  Projektpräsentation           :crit, 2026-06-19, 4h
-  SOL Projektdokumentation      :crit, 2026-06-19, 2h
+  Projektpräsentation           :2026-06-19, 4h
+  SOL Projektdokumentation      :2026-06-19, 2h
 ```
 
 ## Leistungskontrollen
@@ -158,6 +159,7 @@ Programmier-Übungsaufgaben:
 >   * Vorstellung Projektplan (SOL vom 27.03.)
 >   * Bisherige Mitarbeit
 
-> * **Projektpräsentation 19.06.**
+> * **Bewertung Praxisprojekt** am **10.06.**
 >   * **Note für fachliche Leistung**
->   * **Note für Mitarbeit im Praxisprojekt**
+>   * **Note für Mitarbeit**
+> * Projektpräsentation 19.06. (nach Notenschluss)
