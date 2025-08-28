@@ -26,6 +26,7 @@
     * [MQTT](./mqtt.md)
 * [Praxis](praxis.md)
   * [Git](git.md)
+    * [Zusammenfassung](./git_nico.md)
   * [Raspberry Pi](pi.md)
   * [Microcontroller](microcontroller.md)
     * [Beispiele](./microcontroller/beispiele.md)

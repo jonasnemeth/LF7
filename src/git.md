@@ -1,5 +1,6 @@
 # Git
 
+<!--
 ## Einordnung
 
 > Vergleich von SCMs mit Backups und Dateisystem-Snapshots
@@ -20,17 +21,20 @@
 * Bazaar
 * Mercurial (hg)
 * **Git**
-
+-->
 
 ## Praxis
 
-* [Download zu Git](https://git-scm.com/)
+* [Download von Git](https://git-scm.com/)
 * [OhMyGit — spielerisch Git lernen](https://ohmygit.org/)
 
 
-## Wichtigste Operation
+## Beispiel
+Die aus meiner Sicht für Anfänger wichtigsten Operation:
 
+<!--
 siehe [git-Subcommands](https://johannesloetzsch.github.io/linux-praktikum/versionskontrolle.html)
+-->
 
 ```bash
 ## Eine Kopie eines existierenden Repositories klonen und in das Verzeichnis wechseln
@@ -131,6 +135,12 @@ e) commiten und pushen Sie die Änderungen
 
 f) stellen Sie mir einen Pull-Request (das reicht als Abgabe)
 ```
+
+
+**Zusatzaufgabe** für Schüler, die sich bereits mit Git auskennen:
+
+Frischen Sie ihr Wissen zu [DevOps](./devops.md) auf. 
+
 
 <!--
 SOL - Definition Musterlösung
