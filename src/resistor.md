@@ -50,3 +50,34 @@ Einheit: `Ω = V / A`
 => zieht Signalleitung standartmäßig auf gewünschten [Pegel](https://de.wikipedia.org/wiki/Logikpegel#Standardwerte)
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/4e/Pull-down-Widerstand_mit_Taster.svg)
+
+
+## Praxis
+=> Grundschaltungen ausprobieren
+
+* [ ] Schaltkreis mit LED + Vorwiderstand
+  * [ ] Taster einbauen
+* [ ] AND und OR mit 2 Tastern
+* [ ] NOT mit Taster und Pull-up-Wiederstand
+  * [ ] 2 verschiedenfarbige LEDs am Ein-/Ausgang
+* [ ] XOR mit 2 „Umschaltern“ bzw. [Jumper wires](https://en.wikipedia.org/wiki/Jump_wire)
+* [ ] AND, OR, NOT mit Transistoren
+
+Zusatzaufgaben:
+* [ ] [XOR und Halbaddieren mit 7 Transistoren](https://www.leisering.net/4bit_va/inhaltsverzeichnis.html#kap06)
+* [ ] Volladdierer
+
+### Benötigstes Material pro Gruppe
+
+* [ ] Spannungsversorgung
+  * 5V von Raspberry-Pi + USB-Netzteil => [Pinout](pi.md)
+  * [ ] je ein Jumper Wire `female->male` (rot+schwarz)
+* [ ] Breadboard + Jumper Wires `male->male` (verschiedenfarbig)
+* [ ] 2 LEDS (verschiedenfarbig) + 2 Vorwiederstände (330Ω)
+* [ ] 2 Taster
+* [ ] 1 Pull-Up- bzw. Pull-Down-Widerstand (470Ω-1kΩ)
+* [ ] 2 Transistoren mit 10kΩ Basis-Widerstand
+
+
+### Breadboard
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Breadboard.png" style="transform: rotate(90deg);  margin: 100px"/>

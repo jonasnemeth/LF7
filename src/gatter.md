@@ -71,6 +71,8 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/XOR_Aufbau_Und-Oder.svg" style="width: 60%" />
 
+<img src="https://www.leisering.net/4bit_va/xor_gatter.gif" style="width: 60%">
+
 ## [Halbaddierer](https://de.wikipedia.org/wiki/Halbaddierer)
 
 | X1 | X2 | Übertrag c | Summe s |
@@ -96,3 +98,7 @@
 | 1  | 1  |	1   | 1    | 1 |
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Volladdierer_Aufbau_DIN40900.svg" style="width: 60%" />
+
+## Praxis
+
+[Schaltungen](https://www.leisering.net/4bit_va/inhaltsverzeichnis.html#anhb) für Aufbau von Gattern und Addierer mit npn-BJT-Transistioren
