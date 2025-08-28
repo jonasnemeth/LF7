@@ -129,18 +129,19 @@ gantt
 >   * [Grundlagen CPS](grundlagen.md), [Begriffe](buzzwords.md)
 >     * [Industrie 4.0](industrie40.md)
 >     * [Schnittstellen](schnittstellen.md): HCI, M2M, CPS, Sensor, Aktuator
->   * [Logische Verknüpfungen](./gatter.md) (Not, And, Or, XOr)
->     * Wahrheitswertetabelle
->     * Schaltung mit einfachen (Um-)Schaltern
->   * [Rechnen mit Binärzahlen, Zweierpotenzen](binary.md)
 >   * [Elektrische Einheiten](einheiten.md) 
 >   * [Widerstände](./resistor.md)
 >     * Berechnung von (Vor-)Widerständen
 >     * Pullup-/Pulldown-Wiederstände
->   * *([Rechnernetze / Topologien](rechnernetze.md))*
->   * [Grundlagen Git](./git.md)
+>   * [Logische Verknüpfungen](./gatter.md) (Not, And, Or, XOr)
+>     * Wahrheitswertetabelle
+>     * Schaltung mit einfachen (Um-)Schaltern
+>   * [Rechnen mit Binärzahlen, Zweierpotenzen](binary.md)
+>   * [DevOps](devops.md)
+>     * [Grundlagen Git](./git.md)
 
 > * **2. Klassenarbeit 27.03.** (1.+2. UE) ~90min (einseitig beschrifteter A4 Notizzettel)
+>   * [Rechnernetze / Topologien](rechnernetze.md)
 >   * [OSI-Modell](osi.md) (insbesondere Physical Layer und anwendungsorientierte Protokolle)
 >   * [HTTP](http.md), [MQTT](mqtt.md)
 >   * [UART](bituebertragung.md#uart), [SPI](rechnernetze.md#spi), [I²C](rechnernetze.md#i²c)

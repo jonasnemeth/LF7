@@ -1,0 +1,38 @@
+# DevOps
+**Dev**elopment + **Op**eration**s**
+
+## Ziele:
+* Kontinuierliche Bereitstellung von Prototypen und aktuellen Produkten<br/>
+  (Release-Zyklen verringern)
+  * Zeit zwischen Korrekturen und Verbesserungen verkürzen
+* Fehlerrate in Releases reduzieren
+* „schnellere Markteinführung des Endproduktes“
+
+## Konzept / Ansatz / Prinzipien
+* „sicher“ und reproduzierbar (wiederholbar) implementieren
+* Lösungen im Rahmen der Entwicklung kontinuierlich in produktionsähnlichen Umgebungen testen
+* operative Qualität (Betrieb) überwachen und validieren
+* Feedbackschleifen
+
+## DevOps-Kultur / CALMS
+
+* **C**ulture
+* **A**utomation
+* **L**ean
+* **M**easurement
+* **S**haring
+
+## DevOps-Phasen
+* Plan
+* Code
+* Build
+* Test
+* Release
+* Deploy
+* Operate
+
+## DevOps-Praktiken
+* **C**ontinuous **I**ntegration (CI)
+* **C**ontinuous **D**elivery (CD)
+
+=> Einsatz von Git

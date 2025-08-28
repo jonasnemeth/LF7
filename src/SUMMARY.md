@@ -16,6 +16,7 @@
 * [Integration](./integration.md)
   * [Standards](./standards.md)
     * [OSI Modell](./osi.md)
+  * [DevOps](./devops.md)
 * [Protokolle](./protokolle.md)
   * [Bitübertragung](./bituebertragung.md)
   * [Anwendungsorientiert](./anwendungsorientiert.md)
