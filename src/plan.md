@@ -126,7 +126,7 @@ gantt
 * Sonstige Noten: >=3
 
 > * **1. Klassenarbeit 05.09.** ~90min (einseitig beschrifteter A4 Notizzettel + 1 einfacher Taschenrechner ohne Binärberechnungen)
->   * [Grundlagen CPS](grundlagen.md), [Begriffe](buzzwords.md)
+>   * [Grundlagen CPS](grundlagen.md), [Begriffe](buzzwords.md): CPS, System, Anwendungsfelder, Technologien
 >     * [Industrie 4.0](industrie40.md)
 >     * [Schnittstellen](schnittstellen.md): HCI, M2M, CPS, Sensor, Aktuator
 >   * [Elektrische Einheiten](einheiten.md) 
@@ -137,15 +137,15 @@ gantt
 >     * Wahrheitswertetabelle
 >     * Schaltung mit einfachen (Um-)Schaltern
 >   * [Rechnen mit Binärzahlen, Zweierpotenzen](binary.md)
->   * [DevOps](devops.md)
->     * [Grundlagen Git](./git.md)
+>   * [Grundlagen Git](./git.md)
+>     * [DevOps](devops.md)
 
 > * **2. Klassenarbeit 27.03.** (1.+2. UE) ~90min (einseitig beschrifteter A4 Notizzettel)
+>   * Auswahl [Hardwareplatformen und Programmiersprachen](./microcontroller/beispiele.md)
 >   * [Rechnernetze / Topologien](rechnernetze.md)
 >   * [OSI-Modell](osi.md) (insbesondere Physical Layer und anwendungsorientierte Protokolle)
 >   * [HTTP](http.md), [MQTT](mqtt.md)
 >   * [UART](bituebertragung.md#uart), [SPI](rechnernetze.md#spi), [I²C](rechnernetze.md#i²c)
->   * Auswahl Hardwareplatformen und Programmiersprachen
 >   * Grundlagen Programmierung (Variablen, While, If/Else, Funktionen)
 >     * Siehe Programmierbeispiele [Pi](pi.md), [I²C-Beispiel (main.py)](rechnernetze.md#i²c)
 
