@@ -13,7 +13,7 @@
 > 4. Was ist ein Halbaddierer?
 > 5. Wieviele Eingänge und wieviele Ausgänge hat ein Halbaddierer?
 > 6. Zeichnen oder beschreiben Sie eine Schaltung, wie ein Halbaddierer aus einfachen Logikgattern aufgebaut werden kann.
-> 7. Finden Sie Möglichkeiten, wie Logikgatter mittels Murmeln, Wasser oder in Minecraft aufgebaut werden können?
+> 7. Finden Sie Möglichkeiten, wie Logikgatter mittels Murmeln, Wasser oder in Minecraft Java Edition aufgebaut werden können?
 
 
 ## [Transistoren](https://de.wikipedia.org/wiki/Bipolartransistor)
