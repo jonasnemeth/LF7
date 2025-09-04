@@ -12,6 +12,9 @@ LF 9: Netzwerke und Dienste bereitstellen
 
 => [DevOps](devops.md)
 
+> **🙏** Überprüfen Sie im IoT-Kurs, welche Inhalte derzeitiger Lernfelder für die Projekte relevant sind.
+
+
 ### Komponenten von CPS
 
 
