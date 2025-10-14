@@ -22,7 +22,7 @@ gantt
 
 ```mermaid
 gantt
- title Oktober (38UE IoT + 5UE LF7)
+ title Oktober (38UE IoT + 5UE LF7 + 9UE LF8a)
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
  section Mo 20.10. 8
@@ -35,20 +35,38 @@ gantt
   IoT Kurs                    :2025-10-23, 8h
  section Fr 24.10. 6
   IoT Kurs                    :2025-10-24, 6h
+ section Di 28.10. 3
+  LF8a                        :2025-10-28, 3h
+ section Mi 29.10. 3
+  LF8a                        :2025-10-29, 3h
  section Do 30.10. 5
-  Standarts, Node-RED, REST, OpenAPI, HTTP  :2025-10-30, 5h
+  Standards, Node-RED, REST, OpenAPI, HTTP  :2025-10-30, 5h
+  LF8a                        :2025-10-30, 3h
 ```
 
 ```mermaid
 gantt
- title Dezember (15UE LF7)
+ title Dezember (15UE LF7 + 23UE LF8a)
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
+ section Mo 01.12. 3
+  LF8a                        :2025-12-01, 3h
+ section Mo 02.12. 3
+  LF8a                        :2025-12-02, 3h
+ section Mo 04.12. 5
+  LF8a                        :2025-12-04, 5h
  section Fr 05.12. 4
   HTTP, MQTT                  :2025-12-05, 4h
+  LF8a                        :2025-12-05, 2h
+  LF8a SOL                    :crit, 2025-12-05, 2h
+ section Mo 08.12. 3
+  LF8a                        :2025-12-08, 3h
+ section Di 09.12. 3
+  LF8a                        :2025-12-09, 3h
  section Mi 10.12. 5
   UART, I2C, SPI              :2025-12-10, 5h
- section Fr 12.12. 6
+ section Fr 12.12. 8
+  LF8a                        :2025-12-12, 2h
   Programmierübungen          :2025-12-12, 4h
   SOL Beenden Programmierübungen  :crit, 2025-12-12, 2h
 ```
