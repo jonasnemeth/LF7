@@ -22,7 +22,7 @@ gantt
 
 ```mermaid
 gantt
- title Oktober (38UE IoT + 3UE LF7 + 11UE LF8)
+ title Oktober (38UE IoT + 8UE LF8)
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
  section Mo 20.10. 8
@@ -35,12 +35,10 @@ gantt
   IoT Kurs                    :2025-10-23, 8h
  section Fr 24.10. 6
   IoT Kurs                    :2025-10-24, 6h
- section Di 28.10. 3
-  Standards, Node-RED, HTTP   :2025-10-28, 3h
  section Mi 29.10. 3
-  REST, OpenAPI               :2025-10-29, 3h  <!--LF8-->
- section Do 30.10. 8
-  FastAPI, SQLite SQL-Injections     :2025-10-30, 8h  <!--LF8b-->
+  Standards, Node-RED, HTTP, REST, OpenAPI   :2025-10-29, 3h  <!--LF8-->
+ section Do 30.10. 5
+  FastAPI, SQLite SQL-Injections     :2025-10-30, 5h  <!--LF8b-->
 ```
 
 ```mermaid
