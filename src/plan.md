@@ -36,9 +36,9 @@ gantt
  section Fr 24.10. 6
   IoT Kurs                    :2025-10-24, 6h
  section Mi 29.10. 3
-  Standards, Node-RED, HTTP, REST, OpenAPI   :2025-10-29, 3h  <!--LF8-->
+  Standards, Protokolle, HTTP :2025-10-29, 3h
  section Do 30.10. 5
-  FastAPI, SQLite SQL-Injections     :2025-10-30, 5h  <!--LF8b-->
+  JSON, XML, HTML, URL        :2025-10-30, 5h  <!--LF8b-->
 ```
 
 ```mermaid
@@ -54,7 +54,7 @@ gantt
   Wiederholung, Q&A           :2025-12-04, 5h
  section Fr 05.12. 4
   Klassenarbeit               :crit, 2025-12-05, 2h
-  LF8 Praxis                  :2025-12-05, 4h
+  LF8 REST, Node-RED, OpenAPI, FastAPI (, SQLite, SQL-Injections)      :2025-12-05, 4h
   SOL LF8 Praxis              :crit, 2025-12-05, 2h
  section Mo 08.12. 3
   XML, DTD, SOAP              :2025-12-08, 3h
