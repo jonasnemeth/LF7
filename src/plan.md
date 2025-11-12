@@ -22,7 +22,7 @@ gantt
 
 ```mermaid
 gantt
- title Oktober (38UE IoT + 5UE LF7)
+ title Oktober (38UE IoT + 8UE LF8)
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
  section Mo 20.10. 8
@@ -35,52 +35,67 @@ gantt
   IoT Kurs                    :2025-10-23, 8h
  section Fr 24.10. 6
   IoT Kurs                    :2025-10-24, 6h
+ section Mi 29.10. 3
+  Standards, Protokolle, HTTP :2025-10-29, 3h
  section Do 30.10. 5
-  Standarts, Node-RED, REST, OpenAPI, HTTP  :2025-10-30, 5h
+  JSON, XML, HTML, URL        :2025-10-30, 5h  <!--LF8b-->
 ```
 
 ```mermaid
 gantt
- title Dezember (15UE LF7)
+ title Dezember (13UE LF7 + 23UE LF8 + 2UE PV)
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
+ section Mo 01.12. 3
+  HTTP, MQTT                  :2025-12-01, 3h
+ section Di 02.12. 3
+  UART, I2C, SPI              :2025-12-02, 3h
+ section Do 04.12. 5
+  Wiederholung, Q&A           :2025-12-04, 5h
  section Fr 05.12. 4
-  HTTP, MQTT                  :2025-12-05, 4h
+  Klassenarbeit               :crit, 2025-12-05, 2h
+  LF8 REST, Node-RED, OpenAPI, FastAPI (, SQLite, SQL-Injections)      :2025-12-05, 4h
+  SOL LF8 Praxis              :crit, 2025-12-05, 2h
+ section Mo 08.12. 3
+  XML, DTD, SOAP              :2025-12-08, 3h
+ section Di 09.12. 3
+  JSON, JSON Schema           :2025-12-09, 3h
  section Mi 10.12. 5
-  UART, I2C, SPI              :2025-12-10, 5h
- section Fr 12.12. 6
-  Programmierübungen          :2025-12-12, 4h
-  SOL Beenden Programmierübungen  :crit, 2025-12-12, 2h
+  LF8 Praxis                  :2025-12-10, 5h
+ section Fr 12.12. 8
+  LF8 Praxis                  :2025-12-12, 6h
+  SOL PV                      :crit, 2025-12-12, 2h
 ```
 
 ```mermaid
 gantt
- title Januar-Februar (30UE LF8b + 19UE PV)
+ title Januar-Februar (31UE LF8 + 18UE PV)
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
  section Mo 12.01. 3
-  PV                          :2026-01-12, 3h
+  PV                         :2026-01-12, 3h
  section Di 13.01. 3
-  PV                          :2026-01-13, 3h
+  Wiederholung APIs, Datenaustauschformate  :2026-01-13, 3h
  section Mi 14.01. 5
-  LF8b                        :2026-01-14, 5h
+  Wiederholung DB, SQL       :2026-01-14, 5h
  section Do 15.01. 5
-  LF8b                        :2026-01-15, 5h
+  Q&A, Übungsaufgaben        :2026-01-15, 5h
  section Fr 16.01. 8
-  LF8b                        :2026-01-16, 6h
-  SOL PV                      :crit, 2026-01-16, 2h
+  Klassenarbeit              :crit, 2026-01-16, 2h
+  LF8 ERM + Praxis           :2026-01-16, 4h
+  SOL ERM                    :crit, 2026-01-16, 2h
  section Mo 02.02. 5
-  LF8b                        :2026-02-02, 5h
+  LF8 Praxis                 :2026-02-02, 5h
  section Di 03.02. 3
-  LF8b                        :2026-02-03, 3h
+  LF8 Praxis                 :2026-02-03, 1h
+  PV                         :2026-02-03, 2h
  section Mi 04.02. 4
-  LF8b                        :2026-02-04, 4h
+  LF8 Projektpräsentation    :2026-02-04, 4h
  section Do 05.02. 5
-  LF8b                        :2026-02-05, 2h
-  PV                          :2026-02-05, 3h
+  PV                         :2026-02-05, 5h
  section Fr 06.02. 8
-  PV                          :2026-02-06, 6h
-  SOL PV                      :crit, 2026-02-06, 2h
+  PV                         :2026-02-06, 6h
+  SOL PV                     :crit, 2026-02-06, 2h
 ```
 
 ```mermaid
@@ -89,10 +104,9 @@ gantt
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
  section Do 26.03. 5
-  Q&A, Wiederholung             :2026-03-26, 5h
+  Funktionsweise Prozessor      :2026-03-26, 5h
  section Fr 27.03. 6
-  Klassenarbeit                 :crit, 2026-03-27, 2h
-  Von-Neumann-Zyklus            :2026-03-27, 2h
+  Systemprogrammierung          :2026-03-27, 4h
   SOL Projektplan               :crit, 2026-03-27, 2h
 ```
 
@@ -126,7 +140,7 @@ gantt
 * Sonstige Noten: >=3
 
 > * **1. Klassenarbeit 05.09.** ~90min (einseitig beschrifteter A4 Notizzettel + 1 einfacher Taschenrechner ohne Binärberechnungen)
->   * [Grundlagen CPS](grundlagen.md), [Begriffe](buzzwords.md)
+>   * [Grundlagen CPS](grundlagen.md), [Begriffe](buzzwords.md): CPS, System, Anwendungsfelder, Technologien
 >     * [Industrie 4.0](industrie40.md)
 >     * [Schnittstellen](schnittstellen.md): HCI, M2M, CPS, Sensor, Aktuator
 >   * [Elektrische Einheiten](einheiten.md) 
@@ -137,15 +151,15 @@ gantt
 >     * Wahrheitswertetabelle
 >     * Schaltung mit einfachen (Um-)Schaltern
 >   * [Rechnen mit Binärzahlen, Zweierpotenzen](binary.md)
->   * [DevOps](devops.md)
->     * [Grundlagen Git](./git.md)
+>   * [Grundlagen Git](./git.md)
+>     * [DevOps](devops.md)
 
 > * **2. Klassenarbeit 27.03.** (1.+2. UE) ~90min (einseitig beschrifteter A4 Notizzettel)
+>   * Auswahl [Hardwareplatformen und Programmiersprachen](./microcontroller/beispiele.md)
 >   * [Rechnernetze / Topologien](rechnernetze.md)
 >   * [OSI-Modell](osi.md) (insbesondere Physical Layer und anwendungsorientierte Protokolle)
 >   * [HTTP](http.md), [MQTT](mqtt.md)
 >   * [UART](bituebertragung.md#uart), [SPI](rechnernetze.md#spi), [I²C](rechnernetze.md#i²c)
->   * Auswahl Hardwareplatformen und Programmiersprachen
 >   * Grundlagen Programmierung (Variablen, While, If/Else, Funktionen)
 >     * Siehe Programmierbeispiele [Pi](pi.md), [I²C-Beispiel (main.py)](rechnernetze.md#i²c)
 

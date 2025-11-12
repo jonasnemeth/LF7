@@ -47,7 +47,7 @@ Einheit: `Ω = V / A`
 
 ## [Pull-up und Pull-down](https://de.wikipedia.org/wiki/Open_circuit#Pull-down)
 
-=> zieht Signalleitung standartmäßig auf gewünschten [Pegel](https://de.wikipedia.org/wiki/Logikpegel#Standardwerte)
+=> zieht Signalleitung standardmäßig auf gewünschten [Pegel](https://de.wikipedia.org/wiki/Logikpegel#Standardwerte)
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/4e/Pull-down-Widerstand_mit_Taster.svg)
 
