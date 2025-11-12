@@ -23,7 +23,7 @@ Git basiert auf einigen grundlegenden Konzepten, die wichtig sind, um es effekti
 eines Git-Projekts ist das Repository. Ein Repository ist wie ein Ordner, der nicht nur deine Dateien enthält,
 sondern auch alle Änderungen, die du daran vornimmst. Du kannst ein neues Repository erstellen, indem du den
 Befehl `git init` in deinem Projektordner ausführst. Dadurch wird Git in diesem Ordner aktiviert und bereitgestellt,
-um Änderungen zu verfolgen.
+um Änderungen zu verfolgen. HALLO
 
 Sobald du eine Änderung an deinen Dateien vorgenommen hast, kannst du diese mit dem Befehl `git add` zur sogenannten
 Staging-Area hinzufügen. Hier sammelst du Änderungen, die du in einem Schritt speichern möchtest. Mit `git commit`
